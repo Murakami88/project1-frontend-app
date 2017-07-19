@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type='text/javascript'>
+        window.onload = function(){ // onLoadイベントで動作させる
+
+            var e = document.getElementsByTagName("input"); // インプット要素取得
+            e.item( e.length - 1 ).onclick = function(){ // 最後のインプット要素にonClickイベントを追加
+
+                for( var t = document.getElementsByTagName("table")[0], k = 0; k < t.rows.length ; ++k ){ // 最初のテーブルを対象として行数分ループ
+                    var a = ""; // 答えのクリア
+                    for( var c = t.rows[k].cells[1].childNodes, i = 0; i < c.length; ++i ){ // 子要素の数だけループ
+                        if( c[i].checked == 1 ){  // チェックの入っている項目の次のノードから先頭１文字を抜き出して答えに加える。
+                            a += c[++i].nodeValue.charAt(0);
+                        }
+　                  }
+                    t.rows[k].cells[0].getElementsByTagName("input")[0].checked = a != t.rows[k].cells[2].innerHTML ? 1 : 0; // 答え合わせ
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<form name="quiz">
+<P>que1　ピカチュウは電気○○？
+<BR><input type=radio name="a" checked>ねずみ
+　<input type=radio name="a">ねこ
+　<input type=radio name="a">うさぎ
+<P>que2　埼玉県内の市でないのは？
+<BR><input type=radio name="b" checked>春日部
+　<input type=radio name="b">秩父
+　<input type=radio name="b">町田
+<P>que3　パラボラアンテナの「パラボラ」とはどういう意味？
+<BR><input type=radio name="c" checked>双曲線
+　<input type=radio name="c">放物線
+　<input type=radio name="c">直線
+<P>que4　SMAPのメンバーでないのは?
+<BR><input type=radio name="d" checked>木村
+　<input type=radio name="d">仲居
+　<input type=radio name="d">香取
+<P>que5　｢強か｣はなんと読む？
+<BR><input type=radio name="e" checked>したたか
+　<input type=radio name="e">はるか
+　<input type=radio name="e">いか
+<P>que6　HTMLタグの色指定。赤い色はどれ？
+<BR><input type=radio name="f" checked>#ff0000
+　<input type=radio name="f">#00ff00
+　<input type=radio name="f">#0000ff
+<P>que7　清水寺を建てたのは？
+<BR><input type=radio name="g" checked>最澄
+　<input type=radio name="g">坂上田村麻呂
+　<input type=radio name="g">一級建築士
+<P>que8　石灰水に息を吹き込むと白くにごりますが、その後もしつこく息を吹き込みつづけると……
+<BR><input type=radio name="h" checked>白い固体になり沈殿する
+　<input type=radio name="h">透明に戻る
+　<input type=radio name="h">もちろん大爆発
+<P>que9　一つの外角が30°である正多角形は次のうちどれか。
+<BR><input type=radio name="i" checked>正三角形
+　<input type=radio name="i">正八角形
+　<input type=radio name="i">正十二角形
+<P>que10　日本国内でユーザーが最も多いブラウザは？
+<BR><input type=radio name="j" checked>IE
+　<input type=radio name="j">NN
+　<input type=radio name="j">ドリームパスポート
+<P><input type=button value=" 採点 " onClick="saiten()">
+</form>
+</body>
+</html>

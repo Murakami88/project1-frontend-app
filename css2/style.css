@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* すべてのWebページに適用される */
+body{
+	background-color:#009933;
+}
+.col-sm-6{
+	border-top: 3px solid #006699;
+	border-right: 3px solid #006699;
+	border-bottom: 3px solid #006699;
+	border-left: 3px solid #006699;
+	margin:18px 18px 0 0;
+}
+
+.col-sm-4{
+	border-top: 3px solid #006699;
+	border-right: 3px solid #006699;
+	border-bottom: 3px solid #006699;
+	border-left: 3px solid #006699;
+	margin: 18px 0 0 18px;
+	padding: 0 0 0 0;
+}
+
+.countdown-box{
+	text-align:center;
+	margin:10px 0;
+	color:red;
+}
+
+img{
+	width: 21px;
+	height:28px;
+}
+
+.row-eq-height{
+	display: flex;
+	flex-wrap: wrap;
+}

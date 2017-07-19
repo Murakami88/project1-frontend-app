@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js" type="text/javascript">    
+    MathJax.Hub.Config({
+        HTML: ["input/TeX","output/HTML-CSS"],
+        TeX: {
+               Macros: {
+                        bm: ["\\boldsymbol{#1}", 1],
+                        argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                        argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+               extensions: ["AMSmath.js","AMSsymbols.js"],
+               equationNumbers: { autoNumber: "AMS" } },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                   displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                   processEscapes: true },
+        "HTML-CSS": { availableFonts: ["TeX"],
+                      linebreaks: { automatic: true } },
+	TeX: {
+		extensions: ["color.js"]
+	}
+    });
+</script>
+    <title>確認テスト</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css2/style.css">
+    
+    <script type="text/javascript" src="countdownTimer/LIB/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="countdownTimer/js2/jquery.countdownTimer.js"></script>
+    <link rel="stylesheet" type="text/css" href="countdownTimer/css3/jquery.countdownTimer.css" />
+  </head>
+  <body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1" style="background-color:green;">Green
+    </div>
+    <div class="col-sm-5" style="background-color:yellow;">Yellow
+    <br>
+    </div>
+    <div class="col-sm-5" style="background-color:yellow;">Yellow
+	<div id="countdowntimer"><span id="ms_timer"><span>
+	<script>$(function(){
+			$("#ms_timer").countdowntimer({
+			minutes : 20,
+                	seconds : 10,
+                	size : "lg"
+			});
+		});
+	</script>
+	</div>
+    </div>
+    <div class="col-sm-1" style="background-color:green;">Green
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-1">Green
+</div>
+    <div class="col-sm-6" style="background-color:white;">
+	<header style="background-color:white">数学フロンティア</header>
+	<h3 style="text-align: center;" id="practice">確認テスト 2次関数-No.1(平方完成)</h3>
+	<p style="font-size: 18px;">【1】次の2次関数を平方関数せよ。</p><br>
+	<p style="padding:0 0 0 37px;">(1)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
+      &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+	</p> 
+	<p style="padding:0 0 0 37px;">(2)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& 2x^{2}-4x+3 \\
+      &=& 2(x-\fbox{ 3 })^{2}+\fbox{ 4 } \end{array}$$
+	</p> 
+   	<p style="padding:0 0 0 37px;">(3)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& 2x^{2}-3x+4 \\
+      &=& 2(x-\displaystyle \frac{\fbox{ 5 }}{\fbox{ 6 }})^{2}+\frac{\fbox{ 7 | 8 }}{\fbox{ 9 }} \end{array}$$
+	</p>
+	<p style="padding:0 0 0 37px;">(4)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& -3x^{2}+3x+1 \\
+      &=& -3(x-\displaystyle \frac{\fbox{ 10 }}{\fbox{ 11 }})^{2}+\frac{\fbox{ 12 }}{\fbox{ 13 }} \end{array}$$
+	</p>
+	<p style="padding:0 0 0 37px;">(5)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& \displaystyle \frac{1}{2}x^{2}+x-\frac{1}{4} \\
+      &=& \displaystyle \frac{1}{2}(x+\fbox{ 14 })^{2}-\frac{\fbox{ 15 }}{\fbox{ 16 }} \end{array}$$
+	</p>
+<br>
+<br>
+<br>
+<footer style="background-color:white;"><p>&copy;Copyright 数学フロンティア. All rights reserved.</p></footer>
+</div>
+    <div class="col-sm-4" style="background-color:white;">
+	  <table class="table">
+	    <thead>
+	      <tr class="info">
+	        <td></td>
+		  <td></td>
+		  <th style="padding:8px 0 8px 30px;">解　答　欄</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <th scope="row">1</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">2</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	      <tr>
+	        <th scope="row">3</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">4</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	      <tr>
+	        <th scope="row">5</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">6</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+              <tr>
+	        <th scope="row">7</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">8</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	      <tr>
+	        <th scope="row">9</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">10</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	      <tr>
+	        <th scope="row">11</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">12</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+              <tr>
+	        <th scope="row">13</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+ 	      <tr class="info">
+	        <th scope="row">14</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	      <tr>
+	        <th scope="row">15</th>
+	          <td>煌木 花子</td>
+	          <td>hanako.kirameki@example.com</td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row">16</th>
+	          <td>煌木 次郎</td>
+	          <td>jiro.kirameki@example.com</td>
+	      </tr>
+	    </tbody>
+	  </table>
+                <br>
+		<p style="padding:0 0 0 31px;"><button type="button" class="btn btn-primary">採 点</button></p>
+<br>
+</div>
+    <div class="col-sm-1">Green
+</div>
+  </div>
+</div>
+</body>
+</html>
