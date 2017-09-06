@@ -36,3 +36,15 @@ img{
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/* ラジオボタンの非表示 */
+input[type=radio] {
+	display: none;
+}
+
+
+
+/* アウトライン */
+ {
+	outline: solid 1px red;
+}

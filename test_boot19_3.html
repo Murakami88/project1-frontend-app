@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js" type="text/javascript">    
+    MathJax.Hub.Config({
+        HTML: ["input/TeX","output/HTML-CSS"],
+        TeX: {
+               Macros: {
+                        bm: ["\\boldsymbol{#1}", 1],
+                        argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                        argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+               extensions: ["AMSmath.js","AMSsymbols.js"],
+               equationNumbers: { autoNumber: "AMS" } },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                   displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                   processEscapes: true },
+        "HTML-CSS": { availableFonts: ["TeX"],
+                      linebreaks: { automatic: true } },
+	TeX: {
+		extensions: ["color.js"]
+	}
+    });
+</script>
+    <title>確認テスト</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css2/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="countdownTimer/css3/jquery.countdownTimer.css" />
+    <link rel="stylesheet" type="text/css" href="css2/style.css">
+  </head>
+<header style="background-color:#009933; color:black;"></header>
+<body>
+<header style="background-color:#009933; color:black;"></header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1" style="background-color:#009933;">
+    </div>
+<div class="col-sm-6" style="font-famirly:sans-serif; font-weight:bold; border-style:solid; border-color:#006699; border-width:7px; border-radius:5px; background-color:#000066; display:flex; justify-content:center; align-items:center; margin:53px 20px 9px 0; padding: 0 0 0 0;">
+	<p style="color:#ffffff; font-size: 31px; padding: 18px 0 5px 0;">確認テスト 2次関数-No.1(平方完成)
+	</p3>
+    <br>
+    </div>
+    <div class="col-sm-2" style="font-famirly:sans-serif; font-weight:bold; border-style:solid; border-color:#006699; border-width:7px; border-radius:5px; background-color:#000066; display:flex; justify-content:center; align-items:center; margin:53px 0 9px 20px;">
+	<p style="color:#ffffff; font-size: 18px; padding: 10px 0 0 0;">制限時間</p>
+	<p style="color:#ffffff; font-size: 40px; padding: 10px 0 0 0;">10分</p>
+    </div>
+
+    <div class="col-sm-2" style="background-color:#009933; display:flex; justify-content:center; align-items:center; margin: 70px 22px 36px 22px;">
+	<div id="countdowntimer"><span id="ms_timer"><span>
+	<script>$(function(){
+			$("#ms_timer").countdowntimer({
+			minutes : 10,
+                	seconds : 00,
+                	size : "lg"
+			});
+		});
+	</script>
+	</div>
+    </div>
+    <div class="col-sm-1" style="background-color:#009933;">
+    </div>
+  </div>
+  <div class="row row-eq-height">
+    <div class="col-sm-1">
+</div>
+    <div class="col-sm-6" style="background-color:white; padding:10px 0 0 10px;">
+	<p style="font-size: 18px;">【1】次の2次関数を平方関数せよ。</p><br>
+	<p style="padding:0 0 0 37px;">(1)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
+      &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+	</p> 
+	<p style="padding:0 0 0 37px;">(2)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& 2x^{2}-4x+3 \\
+      &=& 2(x-\fbox{ 3 })^{2}+\fbox{ 4 } \end{array}$$
+	</p> 
+   	<p style="padding:0 0 0 37px;">(3)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& 2x^{2}-3x+4 \\
+      &=& 2(x-\displaystyle \frac{\fbox{ 5 }}{\fbox{ 6 }})^{2}+\frac{\fbox{ 7 | 8 }}{\fbox{ 9 }} \end{array}$$
+	</p>
+	<p style="padding:0 0 0 37px;">(4)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& -3x^{2}+3x+1 \\
+      &=& -3(x-\displaystyle \frac{\fbox{ 10 }}{\fbox{ 11 }})^{2}+\frac{\fbox{ 12 }}{\fbox{ 13 }} \end{array}$$
+	</p>
+	<p style="padding:0 0 0 37px;">(5)
+	</p>
+	<p>$$\begin{array}{rcl}y &=& \displaystyle \frac{1}{2}x^{2}+x-\frac{1}{4} \\
+      &=& \displaystyle \frac{1}{2}(x+\fbox{ 14 })^{2}-\frac{\fbox{ 15 }}{\fbox{ 16 }} \end{array}$$
+	</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer style="background-color:white;"><p>&copy;Copyright 数学フロンティア. All rights reserved.</p></footer>
+</div>
+    <div class="col-sm-4" style="background-color:white;">
+	<form name="mark">
+	  <table class="table">
+	    <thead>
+	      <tr class="info">
+		  <td></td>
+		  <th style="padding:12px 0 8px 128px; border-bottom:1px solid #006699;">解　答　欄</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">1</th>
+		  <td style="border-bottom: 1px solid #006699; padding-bottom: 3px;">
+		          <div style="display:flex; justify-content:space-between;">
+				<label><input type="radio" name="A1" onclick="changeImg1()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou1" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg2()" value="2"><img style="margin-right: 6px;" name="gazou2" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg3()" value="3"><img style="margin-right: 6px;" name="gazou3" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg4()" value="4"><img style="margin-right: 6px;" name="gazou4" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg5()" value="5"><img style="margin-right: 6px;" name="gazou5" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg6()" value="6"><img style="margin-right: 6px;" name="gazou6" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg7()" value="7"><img style="margin-right: 6px;" name="gazou7" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg8()" value="8"><img style="margin-right: 6px;" name="gazou8" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg9()" value="9"><img style="margin-right: 6px;" name="gazou9" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg10()" value="0"><img style="margin-right: 6px;" name="gazou10" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg11()" value="00"><img style="margin-right: 6px;" name="gazou11" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A1" onclick="changeImg12()" value="01"><img style="margin-right: 2px;" name="gazou12" src="images/markNo.01.svg" alt="" width=3%></label>
+			  </div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">2</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+				<label><input type="radio" name="A2" onclick="changeImg13()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou13" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg14()" value="2"><img style="margin-right: 6px;" name="gazou14" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg15()" value="3"><img style="margin-right: 6px;" name="gazou15" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg16()" value="4"><img style="margin-right: 6px;" name="gazou16" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg17()" value="5"><img style="margin-right: 6px;" name="gazou17" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg18()" value="6"><img style="margin-right: 6px;" name="gazou18" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg19()" value="7"><img style="margin-right: 6px;" name="gazou19" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg20()" value="8"><img style="margin-right: 6px;" name="gazou20" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg21()" value="9"><img style="margin-right: 6px;" name="gazou21" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg22()" value="0"><img style="margin-right: 6px;" name="gazou22" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg23()" value="00"><img style="margin-right: 6px;" name="gazou23" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A2" onclick="changeImg24()" value="01"><img style="margin-right: 2px;" name="gazou24" src="images/markNo.101.svg" alt="" width=3%></label>
+			 </div>
+		  </td>
+	      </tr>
+	      <tr>
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">3</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			 	<label ><input type="radio" name="A3" onclick="changeImg25()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou25" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg26()" value="2"><img style="margin-right: 6px;" name="gazou26" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg27()" value="3"><img style="margin-right: 6px;" name="gazou27" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg28()" value="4"><img style="margin-right: 6px;" name="gazou28" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg29()" value="5"><img style="margin-right: 6px;" name="gazou29" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg30()" value="6"><img style="margin-right: 6px;" name="gazou30" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg31()" value="7"><img style="margin-right: 6px;" name="gazou31" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg32()" value="8"><img style="margin-right: 6px;" name="gazou32" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg33()" value="9"><img style="margin-right: 6px;" name="gazou33" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg34()" value="0"><img style="margin-right: 6px;" name="gazou34" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg35()" value="00"><img style="margin-right: 6px;" name="gazou35" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A3" onclick="changeImg36()" value="01"><img style="margin-right: 2px;" name="gazou36" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	       <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">4</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A4" onclick="changeImg37()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou37" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg38()" value="2"><img style="margin-right: 6px;" name="gazou38" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg39()" value="3"><img style="margin-right: 6px;" name="gazou39" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg40()" value="4"><img style="margin-right: 6px;" name="gazou40" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg41()" value="5"><img style="margin-right: 6px;" name="gazou41" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg42()" value="6"><img style="margin-right: 6px;" name="gazou42" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg43()" value="7"><img style="margin-right: 6px;" name="gazou43" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg44()" value="8"><img style="margin-right: 6px;" name="gazou44" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg45()" value="9"><img style="margin-right: 6px;" name="gazou45" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg46()" value="0"><img style="margin-right: 6px;" name="gazou46" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg47()" value="00"><img style="margin-right: 6px;" name="gazou47" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A4" onclick="changeImg48()" value="01"><img style="margin-right: 2px;" name="gazou48" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr>
+	       <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">5</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A5" onclick="changeImg49()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou49" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg50()" value="2"><img style="margin-right: 6px;" name="gazou50" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg51()" value="3"><img style="margin-right: 6px;" name="gazou51" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg52()" value="4"><img style="margin-right: 6px;" name="gazou52" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg53()" value="5"><img style="margin-right: 6px;" name="gazou53" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg54()" value="6"><img style="margin-right: 6px;" name="gazou54" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg55()" value="7"><img style="margin-right: 6px;" name="gazou55" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg56()" value="8"><img style="margin-right: 6px;" name="gazou56" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg57()" value="9"><img style="margin-right: 6px;" name="gazou57" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg58()" value="0"><img style="margin-right: 6px;" name="gazou58" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg59()" value="00"><img style="margin-right: 6px;" name="gazou59" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A5" onclick="changeImg60()" value="01"><img style="margin-right: 2px;" name="gazou60" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">6</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A6" onclick="changeImg61()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou61" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg62()" value="2"><img style="margin-right: 6px;" name="gazou62" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg63()" value="3"><img style="margin-right: 6px;" name="gazou63" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg64()" value="4"><img style="margin-right: 6px;" name="gazou64" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg65()" value="5"><img style="margin-right: 6px;" name="gazou65" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg66()" value="6"><img style="margin-right: 6px;" name="gazou66" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg67()" value="7"><img style="margin-right: 6px;" name="gazou67" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg68()" value="8"><img style="margin-right: 6px;" name="gazou68" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg69()" value="9"><img style="margin-right: 6px;" name="gazou69" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg70()" value="0"><img style="margin-right: 6px;" name="gazou70" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg71()" value="00"><img style="margin-right: 6px;" name="gazou71" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A6" onclick="changeImg72()" value="01"><img style="margin-right: 2px;" name="gazou72" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+              <tr>
+	       <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">7</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A7" onclick="changeImg73()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou73" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg74()" value="2"><img style="margin-right: 6px;" name="gazou74" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg75()" value="3"><img style="margin-right: 6px;" name="gazou75" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg76()" value="4"><img style="margin-right: 6px;" name="gazou76" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg77()" value="5"><img style="margin-right: 6px;" name="gazou77" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg78()" value="6"><img style="margin-right: 6px;" name="gazou78" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg79()" value="7"><img style="margin-right: 6px;" name="gazou79" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg80()" value="8"><img style="margin-right: 6px;" name="gazou80" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg81()" value="9"><img style="margin-right: 6px;" name="gazou81" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg82()" value="0"><img style="margin-right: 6px;" name="gazou82" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg83()" value="00"><img style="margin-right: 6px;" name="gazou83" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A7" onclick="changeImg84()" value="01"><img style="margin-right: 2px;" name="gazou84" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">8</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A8" onclick="changeImg85()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou85" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg86()" value="2"><img style="margin-right: 6px;" name="gazou86" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg87()" value="3"><img style="margin-right: 6px;" name="gazou87" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg88()" value="4"><img style="margin-right: 6px;" name="gazou88" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg89()" value="5"><img style="margin-right: 6px;" name="gazou89" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg90()" value="6"><img style="margin-right: 6px;" name="gazou90" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg91()" value="7"><img style="margin-right: 6px;" name="gazou91" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg92()" value="8"><img style="margin-right: 6px;" name="gazou92" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg93()" value="9"><img style="margin-right: 6px;" name="gazou93" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg94()" value="0"><img style="margin-right: 6px;" name="gazou94" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg95()" value="00"><img style="margin-right: 6px;" name="gazou95" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A8" onclick="changeImg96()" value="01"><img style="margin-right: 2px;" name="gazou96" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr>
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">9</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A9" onclick="changeImg97()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou97" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg98()" value="2"><img style="margin-right: 6px;" name="gazou98" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg99()" value="3"><img style="margin-right: 6px;" name="gazou99" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg100()" value="4"><img style="margin-right: 6px;" name="gazou100" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg101()" value="5"><img style="margin-right: 6px;" name="gazou101" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg102()" value="6"><img style="margin-right: 6px;" name="gazou102" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg103()" value="7"><img style="margin-right: 6px;" name="gazou103" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg104()" value="8"><img style="margin-right: 6px;" name="gazou104" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg105()" value="9"><img style="margin-right: 6px;" name="gazou105" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg106()" value="0"><img style="margin-right: 6px;" name="gazou106" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg107()" value="00"><img style="margin-right: 6px;" name="gazou107" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A9" onclick="changeImg108()" value="01"><img style="margin-right: 2px;" name="gazou108" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">10</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A10" onclick="changeImg109()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou109" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg110()" value="2"><img style="margin-right: 6px;" name="gazou110" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg111()" value="3"><img style="margin-right: 6px;" name="gazou111" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg112()" value="4"><img style="margin-right: 6px;" name="gazou112" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg113()" value="5"><img style="margin-right: 6px;" name="gazou113" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg114()" value="6"><img style="margin-right: 6px;" name="gazou114" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg115()" value="7"><img style="margin-right: 6px;" name="gazou115" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg116()" value="8"><img style="margin-right: 6px;" name="gazou116" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg117()" value="9"><img style="margin-right: 6px;" name="gazou117" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg118()" value="0"><img style="margin-right: 6px;" name="gazou118" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg119()" value="00"><img style="margin-right: 6px;" name="gazou119" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A10" onclick="changeImg120()" value="01"><img style="margin-right: 2px;" name="gazou120" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr>
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">11</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A11" onclick="changeImg121()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou121" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg122()" value="2"><img style="margin-right: 6px;" name="gazou122" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg123()" value="3"><img style="margin-right: 6px;" name="gazou123" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg124()" value="4"><img style="margin-right: 6px;" name="gazou124" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg125()" value="5"><img style="margin-right: 6px;" name="gazou125" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg126()" value="6"><img style="margin-right: 6px;" name="gazou126" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg127()" value="7"><img style="margin-right: 6px;" name="gazou127" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg128()" value="8"><img style="margin-right: 6px;" name="gazou128" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg129()" value="9"><img style="margin-right: 6px;" name="gazou129" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg130()" value="0"><img style="margin-right: 6px;" name="gazou130" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg131()" value="00"><img style="margin-right: 6px;" name="gazou131" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A11" onclick="changeImg132()" value="01"><img style="margin-right: 2px;" name="gazou132" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">12</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A12" onclick="changeImg133()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou133" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg134()" value="2"><img style="margin-right: 6px;" name="gazou134" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg135()" value="3"><img style="margin-right: 6px;" name="gazou135" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg136()" value="4"><img style="margin-right: 6px;" name="gazou136" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg137()" value="5"><img style="margin-right: 6px;" name="gazou137" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg138()" value="6"><img style="margin-right: 6px;" name="gazou138" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg139()" value="7"><img style="margin-right: 6px;" name="gazou139" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg140()" value="8"><img style="margin-right: 6px;" name="gazou140" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg141()" value="9"><img style="margin-right: 6px;" name="gazou141" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg142()" value="0"><img style="margin-right: 6px;" name="gazou142" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg143()" value="00"><img style="margin-right: 6px;" name="gazou143" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A12" onclick="changeImg144()" value="01"><img style="margin-right: 2px;" name="gazou144" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+              <tr>
+	       <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">13</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A13" onclick="changeImg145()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou145" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg146()" value="2"><img style="margin-right: 6px;" name="gazou146" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg147()" value="3"><img style="margin-right: 6px;" name="gazou147" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg148()" value="4"><img style="margin-right: 6px;" name="gazou148" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg149()" value="5"><img style="margin-right: 6px;" name="gazou149" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg150()" value="6"><img style="margin-right: 6px;" name="gazou150" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg151()" value="7"><img style="margin-right: 6px;" name="gazou151" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg152()" value="8"><img style="margin-right: 6px;" name="gazou152" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg153()" value="9"><img style="margin-right: 6px;" name="gazou153" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg154()" value="0"><img style="margin-right: 6px;" name="gazou154" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg155()" value="00"><img style="margin-right: 6px;" name="gazou155" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A13" onclick="changeImg156()" value="01"><img style="margin-right: 2px;" name="gazou156" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+ 	      <tr class="info">
+	       <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">14</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A14" onclick="changeImg157()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou157" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg158()" value="2"><img style="margin-right: 6px;" name="gazou158" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg159()" value="3"><img style="margin-right: 6px;" name="gazou159" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg160()" value="4"><img style="margin-right: 6px;" name="gazou160" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg161()" value="5"><img style="margin-right: 6px;" name="gazou161" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg162()" value="6"><img style="margin-right: 6px;" name="gazou162" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg163()" value="7"><img style="margin-right: 6px;" name="gazou163" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg164()" value="8"><img style="margin-right: 6px;" name="gazou164" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg165()" value="9"><img style="margin-right: 6px;" name="gazou165" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg166()" value="0"><img style="margin-right: 6px;" name="gazou166" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg167()" value="00"><img style="margin-right: 6px;" name="gazou167" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A14" onclick="changeImg168()" value="01"><img style="margin-right: 2px;" name="gazou168" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr>
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; text-align:center; vertical-align:middle;">15</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A15" onclick="changeImg169()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou169" src="images/markNo.1.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg170()" value="2"><img style="margin-right: 6px;" name="gazou170" src="images/markNo.2.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg171()" value="3"><img style="margin-right: 6px;" name="gazou171" src="images/markNo.3.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg172()" value="4"><img style="margin-right: 6px;" name="gazou172" src="images/markNo.4.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg173()" value="5"><img style="margin-right: 6px;" name="gazou173" src="images/markNo.5.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg174()" value="6"><img style="margin-right: 6px;" name="gazou174" src="images/markNo.6.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg175()" value="7"><img style="margin-right: 6px;" name="gazou175" src="images/markNo.7.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg176()" value="8"><img style="margin-right: 6px;" name="gazou176" src="images/markNo.8.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg177()" value="9"><img style="margin-right: 6px;" name="gazou177" src="images/markNo.9.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg178()" value="0"><img style="margin-right: 6px;" name="gazou178" src="images/markNo.0.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg179()" value="00"><img style="margin-right: 6px;" name="gazou179" src="images/markNo.00.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A15" onclick="changeImg180()" value="01"><img style="margin-right: 2px;" name="gazou180" src="images/markNo.01.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	      <tr class="info">
+	        <th scope="row" style="border-right:1px solid #006699; border-top:1px solid #006699; border-bottom:1px solid #006699; text-align:center; vertical-align:middle;">16</th>
+	          <td style="border-bottom:1px solid #006699; padding-bottom: 3px;">
+			<div style="display:flex; justify-content:space-between;">
+			  	<label><input type="radio" name="A16" onclick="changeImg181()" value="1"><img style="margin-left: 2px; margin-right: 6px;" name="gazou181" src="images/markNo.11.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg182()" value="2"><img style="margin-right: 6px;" name="gazou182" src="images/markNo.12.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg183()" value="3"><img style="margin-right: 6px;" name="gazou183" src="images/markNo.13.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg184()" value="4"><img style="margin-right: 6px;" name="gazou184" src="images/markNo.14.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg185()" value="5"><img style="margin-right: 6px;" name="gazou185" src="images/markNo.15.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg186()" value="6"><img style="margin-right: 6px;" name="gazou186" src="images/markNo.16.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg187()" value="7"><img style="margin-right: 6px;" name="gazou187" src="images/markNo.17.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg188()" value="8"><img style="margin-right: 6px;" name="gazou188" src="images/markNo.18.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg189()" value="9"><img style="margin-right: 6px;" name="gazou189" src="images/markNo.19.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg190()" value="0"><img style="margin-right: 6px;" name="gazou190" src="images/markNo.20.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg191()" value="00"><img style="margin-right: 6px;" name="gazou191" src="images/markNo.100.svg" alt="" width=3%></label>
+				<label><input type="radio" name="A16" onclick="changeImg192()" value="01"><img style="margin-right: 2px;" name="gazou192" src="images/markNo.101.svg" alt="" width=3%></label>
+			</div>
+		  </td>
+	      </tr>
+	    </tbody>
+	  </table>
+                <br>
+		<p style="padding:0 0 0 31px;"><input type="button" class="btn btn-primary" value="採点" onclick="saiten()"></input></p>
+	</form>
+	<br>
+</div>
+    <div class="col-sm-1">
+</div>
+  </div>
+</div>
+
+<script type="text/javascript" src="countdownTimer/LIB/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="countdownTimer/js2/jquery.countdownTimer.js"></script>
+<script type="text/javascript" src="change.js"></script>
+
+<script type="text/javascript">
+function saiten(){
+	var point=0;	//　点数
+	var max=100;	//　満点
+
+	if((document.mark.A1[1].checked)&&(document.mark.A2[4].checked)){point+=20;}
+	if((document.mark.A3[0].checked)&&(document.mark.A4[0].checked)){point+=20;}
+	if((document.mark.A5[2].checked)&&(document.mark.A6[3].checked)&&(document.mark.A7[1].checked)&&(document.mark.A8[2].checked)&&(document.mark.A9[7].checked)){point+=20;}
+	if((document.mark.A10[0].checked)&&(document.mark.A11[1].checked)&&(document.mark.A12[6].checked)&&(document.mark.A13[3].checked)){point+=20;}
+	if((document.mark.A14[0].checked)&&(document.mark.A15[2].checked)&&(document.mark.A16[3].checked)){point+=20;}
+
+	if(point==max){
+		swal("合格(^^♪",""+max+"点です。\nおめでとうございます。満点です。","success");
+	}
+	else{swal("不合格",""+point+"点です。\n残念。またチャレンジしてね。","success");}
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.js"></script>
+</body>
+</html>
